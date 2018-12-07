@@ -1,0 +1,155 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://prestonjcrowe.github.io/}{\Large Preston Crowe}} & Email : \href{mailto:prestonjcrowe@gmail.com.com}{prestonjcrowe@gmail.com}\\
+  \href{http://prestonjcrowe.github.io}{http://www.prestonjcrowe.github.io} & Mobile : (415) 265 - 3937 \\
+  &\href{http://www.github.com/prestonjcrowe}{Github: prestonjcrowe}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Washington}{Seattle, WA}
+      {Computer Science:  GPA: 3.84}{Sep. 2016 -- June. 2020} \vspace{5pt}\\
+      \textbf{\small Relevant Coursework:} \small Data Structures and Parallelism, Hardware/Software Interface, Foundations of Computing,\\
+      \hspace{114pt} Linear Algebra, Calculus Series\\
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {NASA AMES Research Center}{Mountain View, CA}
+      {Software Intern}{June 2017 - September 2017}
+      \resumeItemListStart
+        \resumeItem{OpenMCT}
+        {OpenMCT is an open source mission control framework developed in AngularJS. I implemented JSON import and export functionality for workspaces and folder hierarchies, allowing for standardization of layouts across teams. The software is still being tested extensively at JPL and with the addition of modular workspaces, the process of creating and sharing demo environments has been expedited. Worked on a large team in an enterprise environment; wrote extensive tests for each piece of code I contributed.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Seattle Athletic Club}{Seattle, WA}
+      {Volunteer Tutor}{April 2017 - June 2017}
+      \resumeItemListStart
+        \resumeItem{Tutor}
+        {Volunteered weekly at an after school program at the Seattle Athletic Club. I focused primarily on math and science but often tutored students in English and humanities as well.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Marin SAT Prep}{San Rafael, CA}
+      {Android Developer}{September 2016 - December 2016}
+      \resumeItemListStart
+        \resumeItem{TestClock}
+        {Developed a series of Android applications for a test prep center. The timers provided a visual for 20 - 30 students taking practice tests in house, as well as a resource for independent study. Both applications (SAT and ACT variants) are published and available for download on the Google Play Store.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {MV Code Club}{Mill Valley, CA}
+      {Programming Instructor}{November 2015 - September 2016}
+      \resumeItemListStart
+        \resumeItem{Instructor}
+        {Taught middle school age students programming concepts through project based learning. Encouraged students to take on large assignments spanning several weeks, most often utilizing the p5js drawing library. Lead classes in Javascript, HTML/CSS, Python, and Unity/C\#, all of which I taught myself to get the job.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  \resumeSubItem{\href{https://riemann-sums.github.io}{Riemann Sum Visualization}}
+      {Web applet that allows students to plot a curve and compute a variety of Riemann Sum values with custom function, bounds, and interval size. Built as a tool for my high school calculus teacher to use in his classroom as well as a method of checking my own answers on assignments. It is freely available online for curious students to experiment with.}
+      \resumeSubItem{\href{https://www.github.com/prestonjcrowe/mtg-lifecounter}{MTG Life Counter App}}
+      {Android application that keeps track of one or two player's life totals during a game of Magic: The Gathering. The application supports both EDH and standard formats. The source code is freely available on my Github page.}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+        \textbf{Proficient:} {Javascript, Python, HTML/CSS, Java/Android SDK, Git}
+    }
+    \item {
+        \textbf{Lots of experience:} {NodeJS, React, AngularJS, Unit Testing (Jasmine)}
+    }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
