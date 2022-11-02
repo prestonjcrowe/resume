@@ -82,7 +82,7 @@
 
 \vspace{5mm} %5mm vertical space
 \textbf{Passionate about privacy.}\\
-{ Interested in network security research, service development, and data visualization.}
+{Security Engineer immersed in researching emerging threats with a focus on internal tools. Interested in network security research, service development, and automation.}
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
@@ -96,72 +96,68 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
+    \resumeSubheading
+      {Extrahop}{Seattle, WA}
+      {Security Engineer}{December 2020 - Present}
+      \resumeItemListStart
+        \resumeItem{Security Engineer I}
+        {Reproduced exploits in a lab environment, produced research documents and implemented rule based detectors. Built and maintained automated systems for collecting vulnerability data and exploits. Developed chat bots to interact with our vulnerability ticketing system and publish daily summaries of the most discussed CVEs on Twitter. Worked closely with the technical writing team to provide background details and guidance for detection annotations.}
+        \resumeItem{Security Engineer II}
+        {Switched to the Threat Research team and shifted focus from detector development to purely research and internal tooling. Built a system to visualize and query anonymized customer data to aid the detector team in building software and cloud service classifiers. Lead the effort to validate detections with the Mandiant Security Validation platform by developing a suite of tools to automate simulations and collect performance data.}
+      \resumeItemListEnd
     
     \resumeSubheading
       {Baffin Bay Networks}{Seattle, WA}
-      {Software Intern}{June 2019 - September 2019}
+      {Internship}{June 2019 - September 2019}
       \resumeItemListStart
         \resumeItem{Data Collection and Full Stack Development}
-        {Customized logging solutions in open source software, improved custom proprietary data collection services built with Golang, and developed an API for Baffin Bay's Threat Insight platform. Prototyped an internal data dashboard for monitoring the state, location, and cost of our sensor network with React.}
+        {Customized logging solutions in open source software, improved proprietary data collection services built with Golang, and developed an API for Baffin Bay's Threat Insight platform. Prototyped an internal dashboard for monitoring the state of a complex sensor network in React.}
       \resumeItemListEnd
 
     \resumeSubheading
       {F5 Networks}{Seattle, WA}
-      {Software Intern}{June 2018 - September 2018}
+      {Internship}{June 2018 - September 2018}
       \resumeItemListStart
         \resumeItem{F5 Labs}
         {Worked with a team of security researchers at F5 Labs to develop a serverless vulnerability data pipeline and API. Visualized attack data including a live threat map and contributions to \href{https://www.f5.com/labs/articles/threat-intelligence/breaking-down-the-door-to-emergency-services-through-cellular-io}{Black Hat talk}. Automated CVE data collection, parsing, and metrics.}
       \resumeItemListEnd
-    
-    \resumeSubheading
-      {University of Washington}{Seattle, WA}
-      {Teaching Assistant}{April 2018 - June 2018}
-      \resumeItemListStart
-        \resumeItem{Computer Programming II TA}
-        { Taught two sections a week. Attended staff meetings, contributed to section planning, and graded assignments. Wrote and shared with my students a suite of example applications to dive deeper into the lecture material, including a brute force password guesser and a recursive puzzle solver.}
-      \resumeItemListEnd
-
 
     \resumeSubheading
       {NASA AMES Research Center}{Mountain View, CA}
-      {Software Intern}{June 2017 - September 2017}
+      {Internship}{June 2017 - September 2017}
       \resumeItemListStart
         \resumeItem{OpenMCT}
         {Implemented JSON import and export functionality for workspaces and folder hierarchies in OpenMCT, an open source mission control application. Worked on a large team in an enterprise environment; wrote extensive tests for each piece of code I contributed.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-
-%-----------PROJECTS-----------------
-\section{Projects}
-
-  \resumeSubHeadingListStart
-  \resumeSubItem{\href{https://www.f5.com/labs/articles/threat-intelligence/breaking-down-the-door-to-emergency-services-through-cellular-io}{Snooping on Cellular Gateways and Their Critical Role in ICS}}
-    {Contributed data visualizations and built tools to generate graphics for a talk given at Black Hat and Agora in 2018.}
-  \resumeSubItem{\href{https://riemann-sums.github.io}{Riemann Sum Visualization}}
-      {Web applet that allows students to plot a curve and compute a variety of Riemann Sum values with custom function, bounds, and interval size. Built as a tool for my calculus teacher to use in his classroom as well as a method of checking my own answers on assignments. It is freely available online for curious students to experiment with.}
-      \resumeSubItem{\href{https://www.github.com/prestonjcrowe/prestoncrowe.com}{Personal Website}}
-      {Built with React and SASS, hosted on an Amazon EC2 instance. All of the content comes from a static config file (src/config.json), so if you like it feel free to clone the project and customize to your liking.}
-  \resumeSubHeadingListEnd
-
-
+ 
 %--------PROGRAMMING SKILLS------------
-\section{Technical Skills}
+\section{Skills}
   \resumeSubHeadingListStart
     \item{
-            \textbf{Languages:} {Go, Python, C, Java, Racket, SML}
-        }
+      \textbf{Programming Languages}{: Python, Javascript, Golang, Java, C}
+    }
     \item{
-            \textbf{Frameworks:} {React, d3, Angular, Node, Android SDK, SASS}
-        }
+      \textbf{Vulnerability Research}{: PCAP analysis, exploit reproduction}
+    }
     \item{
-            \textbf{Databases:} {MongoDB, PostgreSQL, SQLite}
-        }
+      \textbf{Automation}{: Web scraping, CI/CD, data collection}
+    }
     \item{
-            \textbf{Dev Tools:} {GNU/Linux, AWS (Lambda, S3, Gateway, EC2, Elasticsearch), git, vim}
-        }
+      \textbf{AWS}{: Lambda, S3, EC2, Elasticsearch, Opensearch}
+    }
  \resumeSubHeadingListEnd
-
-
+ 
+ %--------PUBLICATIONS------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Extrahop}{\href{https://www.extrahop.com/company/blog/2021/petitpotam-and-ntlm-relay-attacks/}{: PetitPotam: Expanding NTLM Relay Attacks} }
+    }
+    \item{
+      \textbf{F5 Networks}{\href{https://www.f5.com/labs/articles/threat-intelligence/breaking-down-the-door-to-emergency-services-through-cellular-io}{: Breaking Down the Door to Emergency Services through Cellular IoT Gateways} }
+    }
+  \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
