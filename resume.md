@@ -2,7 +2,7 @@
 
 prestonjcrowe@protonmail.com · [prestoncrowe.com](https://prestoncrowe.com) · [github.com/prestonjcrowe](https://github.com/prestonjcrowe)
 
-Security Engineer with 5+ years experience in detection engineering, vulnerability research, dev ops, and system design.
+Security Engineer with 5+ years experience in detection engineering, threat intellignece infrastructure, and vulnerability research.
 
 ## Education
 
@@ -18,13 +18,12 @@ Relevant Coursework:
 **ExtraHop** — Seattle, WA  
 *Security Engineer III, December 2020 – Present*
 
-- Reproduced and shipped detections for critical vulnerabilities within hours of disclosure (SUPERNOVA, Log4Shell, MAPP). Worked with the technical writing team to produce threat briefings and detection content as part of incident response efforts.
-- Researched and provided detection strategies for red team tools (Redline, Bloodhound, PetitPotam, Farmer).
-- Developed pipelines to monitor emerging exploits and publish daily summaries of the most-discussed CVEs on social media. Implemented Jira automation to create and triage tickets for network vulnerabilities, obviating a manual process that took researchers 10s of hours per week.
-- Built automation to spin up traffic mirroring environments in AWS and correlate detections against breach and attack simulation platforms. Authored an internal guide for testing with Mandiant Security Validation and worked directly with sales engineers to implement best practice configurations in customer engagements. Added over 3000 malicious file hashes to our detection catalog.
-- Worked with the Threat Research team to build tools for pcap manipulation and device discovery. Collaborated with the performance and framework teams to extend their tooling for automated traffic replay.
-- Won the 2025 Extrahop Hackathon audience choice awared by developing the first ExtraHop MCP server.
-- Built an indicator data lake with Apache Iceberg to analyze threats and publish TI collections. Served analyst queries at 100+ million indicator scale. Exported indicator collections to a production enrichment API that empowered detections across all customers.
+- Shipped detections within hours of disclosure for critical vulnerabilities (Log4Shell, SUPERNOVA, MAPP), partnering with technical writers to publish threat briefings during incident response.
+- Built an Apache Iceberg indicator data lake serving analyst queries at 100M+ indicator scale; exported collections to a production enrichment API powering detections for all customers.
+- Built the first ExtraHop MCP server for agentic enumeration of detections and devices, winning the 2025 hackathon audience choice award.
+- Automated AWS traffic-mirroring environments to correlate detections against breach and attack simulation platforms; added 3,000+ malicious file hashes to the detection catalog and authored the internal Mandiant Security Validation guide used in customer engagements.
+- Developed detection strategies for red team tools (Redline, BloodHound, PetitPotam, Farmer); built pcap manipulation, device discovery, and automated traffic replay tooling with Threat Research and performance teams.
+- Automated CVE monitoring and Jira ticket creation/triage for network vulnerabilities, eliminating tens of hours of manual researcher work per week; published daily CVE summaries and sentiment analysis.
 
 **Baffin Bay Networks** — Seattle, WA  
 *Internship, Product Development — June 2019 – September 2019*
@@ -47,18 +46,13 @@ Relevant Coursework:
 
 ## Skills
 
-- **Detection & Response:** Detection engineering, Traffic analysis, Exploit repro
-- **Software Development:** Python, Go, JavaScript, Java, C, Git
+- **Detection & Response:** detection engineering, traffic analysis, incident response
+- **Software Development:** Python, Go, JavaScript, Java, C, Git, SQL
 - **System Architecture:** Linux, AWS , Docker, Terraform, Ansible
 - **DevOps:** GitLab CI/CD, ETL, Chat Ops, Internal tools
-- **Homelab & Hobbies:** Proxmox, OPNSense, OpenWrt, SDR, ESP32, LoRa, OSINT
+- **Interests:** Proxmox, OPNSense, OpenWrt, SDR, ESP32, LoRa, OSINT
 
 ## Publications
 
 - F5 Networks: [*Breaking Down the Door to Emergency Services through Cellular IoT Gateways*](https://www.f5.com/labs/articles/breaking-down-the-door-to-emergency-services-through-cellular-io)
 - ExtraHop: [*PetitPotam: Expanding NTLM Relay Attacks*](https://www.extrahop.com/blog/petitpotam-and-ntlm-relay-attacks)
-
-<!-- | Company      | Article     |
-| :---        |          :--- |
-| F5 Networks | [*Breaking Down the Door to Emergency Services through Cellular IoT Gateways*](https://www.f5.com/labs/articles/breaking-down-the-door-to-emergency-services-through-cellular-io)   |
-| ExtraHop    | [*PetitPotam: Expanding NTLM Relay Attacks*](https://www.extrahop.com/blog/petitpotam-and-ntlm-relay-attacks)      | -->
