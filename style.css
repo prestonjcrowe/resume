@@ -1,0 +1,78 @@
+/* resume style: plain-text-file / cDc-zine inspired, print-safe, parser-friendly.
+ *
+ * Design rules (so automated tools can still read the PDF):
+ *   - all decoration is CSS borders, not characters (no ASCII-art text in the PDF)
+ *   - no letter-spacing (it makes extractors emit "P R E S T O N")
+ *   - single column, real text, embedded fonts, source-order == reading-order
+ */
+
+@font-face { font-family: "ResumeMono"; font-weight: normal; font-style: normal;
+             src: url("fonts/DejaVuSansMono.ttf"); }
+@font-face { font-family: "ResumeMono"; font-weight: bold;   font-style: normal;
+             src: url("fonts/DejaVuSansMono-Bold.ttf"); }
+@font-face { font-family: "ResumeMono"; font-weight: normal; font-style: italic;
+             src: url("fonts/DejaVuSansMono-Oblique.ttf"); }
+@font-face { font-family: "ResumeMono"; font-weight: bold;   font-style: italic;
+             src: url("fonts/DejaVuSansMono-BoldOblique.ttf"); }
+
+@page { size: Letter; margin: 0.45in 0.55in; }
+
+html {
+  font-family: "ResumeMono", "DejaVu Sans Mono", "Liberation Mono", monospace;
+  font-size: 9pt;
+  line-height: 1.36;
+  color: #111;
+  background: #fff;
+}
+body { margin: 0; padding: 0; }
+
+/* ---- header: double-line box, like a ╔═╗ banner ------------------------ */
+header {
+  border: 3px double #111;
+  padding: 7pt 10pt 6pt;
+  margin: 0 0 9pt;
+}
+header h1 {
+  font-size: 20pt;
+  line-height: 1.15;
+  margin: 0 0 4pt;
+  font-weight: bold;
+}
+header p { margin: 0 0 3pt; }
+header p:last-child { margin-bottom: 0; }
+
+/* ---- section headings: [BRACKETED] with a full-width rule above --------- */
+h2 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-top: 1px solid #111;
+  padding-top: 4pt;
+  margin: 10pt 0 5pt;
+  page-break-after: avoid;
+}
+
+/* ---- entries: dashed separator, like the ------- lines on the site ------ */
+p { margin: 0 0 3pt; }
+p.entry {
+  margin: 7pt 0 3pt;
+  padding-top: 6pt;
+  border-top: 1px dashed #888;
+  page-break-after: avoid;
+}
+p.entry.first { margin-top: 0; padding-top: 0; border-top: none; }
+p.entry em { color: #444; }
+
+/* ---- lists: hyphen bullets with a hanging indent ------------------------ */
+ul { list-style: none; margin: 0 0 2pt; padding: 0; }
+li {
+  margin: 0 0 2pt;
+  padding-left: 1.21em;
+  text-indent: -1.21em;
+}
+li::before { content: "- "; }
+
+/* ---- links: keep text color, dotted underline --------------------------- */
+a { color: inherit; text-decoration: none; border-bottom: 1px dotted #555; }
+
+strong { font-weight: bold; }
