@@ -18,7 +18,7 @@ Relevant Coursework:
 **ExtraHop** — Seattle, WA  
 *Security Engineer III, December 2020 – Present*
 
-- Shipped detections within hours of disclosure for critical vulnerabilities (Log4Shell, SUPERNOVA, MAPP), partnering with technical writers to publish threat briefings during incident response.
+- Shipped detections within hours of disclosure for critical vulnerabilities (Log4Shell, SUPERNOVA, MAPP) and partnered with technical writers to publish threat briefings during incident response.
 - Built an Apache Iceberg indicator data lake serving analyst queries at 100M+ indicator scale; exported collections to a production enrichment API powering detections for all customers.
 - Built the first ExtraHop MCP server for agentic enumeration of detections and devices, winning the 2025 hackathon audience choice award.
 - Automated AWS traffic-mirroring environments to correlate detections against breach and attack simulation platforms; added 3,000+ malicious file hashes to the detection catalog and authored the internal Mandiant Security Validation guide used in customer engagements.
@@ -29,12 +29,12 @@ Relevant Coursework:
 *Internship, Product Development — June 2019 – September 2019*
 
 - Built an internal dashboard to monitor a honeypot network in React. Aggregated health metrics for sensors hosted across dozens of cloud providers distributed across the world.
-- Developed an API for Baffin Bay's Threat Insight platform to provide context enrichment for IP addresses.
+- Developed an API for Baffin Bay's Threat Insight platform to provide IP context enrichment.
 
 **F5 Networks** — Seattle, WA  
 *Internship, F5 Labs — June 2018 – September 2018*
 
-- Worked with a team of security researchers to develop a vulnerability data pipeline in order to monitor classes of CVEs.
+- Worked with a team of security researchers to develop a vulnerability data pipeline.
 - Built a threat map with React and D3.js to visualize incoming honeypot traffic in real time.
 - Generated data visualizations and animations for a Black Hat talk.
 
