@@ -2,7 +2,7 @@
 
 prestonjcrowe@protonmail.com · [prestoncrowe.com](https://prestoncrowe.com) · [github.com/prestonjcrowe](https://github.com/prestonjcrowe)
 
-Security Engineer with 5+ years experience in detection engineering, threat intellignece infrastructure, and vulnerability research.
+Security Engineer with 5+ years experience in detection engineering, threat intelligence infrastructure, and vulnerability research.
 
 ## Education
 
@@ -18,10 +18,10 @@ Relevant Coursework:
 **ExtraHop** — Seattle, WA  
 *Security Engineer III, December 2020 – Present*
 
-- Shipped detections within hours of disclosure for critical vulnerabilities (Log4Shell, SUPERNOVA, MAPP) and partnered with technical writers to publish threat briefings during incident response.
+- Shipped detections within hours of disclosure for critical vulnerabilities and partnered with technical writers to publish expedited threat briefings.
 - Built an Apache Iceberg indicator data lake serving analyst queries at 100M+ indicator scale; exported collections to a production enrichment API powering detections for all customers.
 - Built the first ExtraHop MCP server for agentic enumeration of detections and devices, winning the 2025 hackathon audience choice award.
-- Automated AWS traffic-mirroring environments to correlate detections against breach and attack simulation platforms; added 3,000+ malicious file hashes to the detection catalog and authored the internal Mandiant Security Validation guide used in customer engagements.
+- Automated AWS traffic-mirroring environments to correlate detections against breach and attack simulation platforms; authored the internal Mandiant Security Validation guide used in customer engagements and added coverage for 3,000+ malicious file transfer actions.
 - Developed detection strategies for red team tools (Redline, BloodHound, PetitPotam, Farmer); built pcap manipulation, device discovery, and automated traffic replay tooling with Threat Research and performance teams.
 - Automated CVE monitoring and Jira ticket creation/triage for network vulnerabilities, eliminating tens of hours of manual researcher work per week; published daily CVE summaries and sentiment analysis.
 
@@ -35,7 +35,7 @@ Relevant Coursework:
 *Internship, F5 Labs — June 2018 – September 2018*
 
 - Worked with a team of security researchers to develop a vulnerability data pipeline.
-- Built a threat map with React and D3.js to visualize incoming honeypot traffic in real time.
+- Built a threat map with React and D3.js to visualize suspicious traffic in real time.
 - Generated data visualizations and animations for a Black Hat talk.
 
 **NASA AMES Research Center** — Mountain View, CA  
@@ -48,7 +48,7 @@ Relevant Coursework:
 
 - **Detection & Response:** detection engineering, traffic analysis, incident response
 - **Software Development:** Python, Go, JavaScript, Java, C, Git, SQL
-- **System Architecture:** Linux, AWS , Docker, Terraform, Ansible
+- **System Architecture:** Linux, AWS, Docker, Terraform, Ansible
 - **DevOps:** GitLab CI/CD, ETL, Chat Ops, Internal tools
 - **Interests:** Proxmox, OPNSense, OpenWrt, SDR, ESP32, LoRa, OSINT
 
