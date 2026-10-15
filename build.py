@@ -67,7 +67,7 @@ def build_single_page_resume(md_file='resume.md', css_file='style.css', pdf_file
     # 5. Iteratively adjust the CSS font-size to force a single page
     font_scale = 1.0
     min_scale = 0.5
-    scale_step = 0.05
+    scale_step = 0.005
 
     print("Generating PDF...")
 

@@ -19,8 +19,8 @@
 
 html {
   font-family: "ResumeMono", "DejaVu Sans Mono", "Liberation Mono", monospace;
-  font-size: 9pt;
-  line-height: 1.36;
+  font-size: 12pt;
+  line-height: 1.30;
   color: #111;
   background: #fff;
 }
@@ -33,7 +33,7 @@ header {
   margin: 0 0 9pt;
 }
 header h1 {
-  font-size: 20pt;
+  font-size: 18pt;
   line-height: 1.15;
   margin: 0 0 4pt;
   font-weight: bold;
@@ -50,6 +50,12 @@ h2 {
   padding-top: 4pt;
   margin: 10pt 0 5pt;
   page-break-after: avoid;
+}
+
+h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 /* ---- entries: dashed separator, like the ------- lines on the site ------ */
