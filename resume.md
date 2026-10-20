@@ -9,19 +9,19 @@ Security Engineer with 5+ years experience building detectors, internal tools, a
 **ExtraHop Networks** — Seattle, WA  
 *Security Engineer III, March 2024 – Present*  
 
-- Built an Apache Iceberg indicator data lake serving analyst queries at 100M+ indicator scale; exported TI collections to a production enrichment service.
+- Built an Apache Iceberg indicator data lake serving analyst queries at 100M+ indicator scale; exported TI collections to an enrichment service powering detections for all customers.
 - Developed the first ExtraHop MCP server for agentic enumeration of detections and network devices, winning the 2025 hackathon audience choice award.
 
 *Security Engineer II, March 2022 – March 2024*  
 
-- Automated AWS traffic-mirroring environments to benchmark detections against breach and attack simulation platforms; added coverage for 3,000+ Mandiant Security Validation (MSV) actions, over 50% of the MSV catalog.
-- Authored an internal MSV testing guide and worked with sales engineers on best-practice configurations in customer engagements.
+- Automated AWS traffic-mirroring environments to benchmark detections against breach and attack simulation platforms; added coverage for 3,000+ Mandiant Security Validation (MSV) actions.
+- Authored internal MSV testing guide and provided guidance for sales engineers in customer engagements.
 
 *Security Engineer I, December 2020 – March 2022*  
 
 - Shipped detections within hours of disclosure for critical vulnerabilities (e.g., Log4Shell, SUPERNOVA).
-- Developed detection strategies for red team tools (Redline, BloodHound, PetitPotam, Farmer); built pcap manipulation, device discovery, and automated traffic replay tooling with Threat Research and performance teams.
-- Automated CVE triage for network vulnerabilities, eliminating a weekly one-hour meeting for the ~10-person threat research team (520 researcher-hours per year).
+- Developed detection strategies for red team tools (Redline, BloodHound, PetitPotam, Farmer); built pcap manipulation and automated traffic replay tooling with threat research and performance teams.
+- Automated CVE triage for network vulnerabilities, eliminating a weekly one-hour meeting for a ~10 person threat research team (520 researcher-hours per year).
 
 **Baffin Bay Networks** — Seattle, WA  
 *Internship, Product Development — June 2019 – September 2019*
@@ -43,14 +43,14 @@ Security Engineer with 5+ years experience building detectors, internal tools, a
 
 ## Skills
 
-- **Detection & Response:** detection engineering / validation, vulnerability triage, BAS
-- **Threat Intelligence:** TI pipelines, IDS, CVE and exploit monitoring, OSINT
-- **Threat Research:** exploit reproduction, honeypots, red team tool analysis
-- **Network Security:** PCAP analysis and generation, traffic mirroring and replay
-- **Data & AI Engineering:** Apache Iceberg, ETL, SQL, MCP, agentic tooling, data lakes
-- **Languages & Frameworks:** Python, Go, JavaScript, Java, C, React, Vue.js, D3.js
+- **Detection & Response:** detection engineering, incident response, NDR, MITRE ATT&CK
+- **Threat Intelligence:** TI collection and processing pipelines, exploit monitoring, OSINT
+- **Threat Research:** exploit reproduction, red team tool analysis, vulnerability triage
+- **Traffic Analysis:** PCAP analysis (Wireshark), traffic mirroring and replay (scapy / tcpreplay)
+- **Data & AI Engineering:** Apache Iceberg (S3 Tables), Athena, MCP, agentic tooling, data lakes
+- **Languages & Frameworks:** Python, Go, JavaScript, SQL, Java, C, React, Vue.js, D3.js
 - **Cloud & Infrastructure:** AWS, Linux, Docker, Terraform, Ansible, GitLab CI/CD
-- **Interests:** SDR, ESP32, LoRa, 3D printing, data hoarding, homelab
+- **Interests:** SDR, ESP32, LoRa, 3D printing, data hoarding, homelab, lockpicking
 
 ## Education
 

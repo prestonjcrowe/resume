@@ -64,7 +64,8 @@ def build_single_page_resume(md_file='resume.md', css_file='style.css', pdf_file
     html = HTML(string=html_string, base_url=os.path.dirname(os.path.abspath(md_file)))
     base_stylesheets = [CSS(filename=css_file)] if os.path.exists(css_file) else []
 
-    # 5. Iteratively adjust the CSS font-size to force a single page
+    # 5. Iteratively adjust the CSS font-size to force target page length
+    max_pages = 1
     font_scale = 1.0
     min_scale = 0.5
     scale_step = 0.005
@@ -78,7 +79,7 @@ def build_single_page_resume(md_file='resume.md', css_file='style.css', pdf_file
         doc = html.render(stylesheets=base_stylesheets + [scale_css])
         page_count = len(doc.pages)
         
-        if page_count == 1:
+        if page_count == max_pages:
             doc.write_pdf(pdf_file)
             print(f"Success! PDF built at {pdf_file} (Font scale: {font_scale * 100:.0f}%)")
             return
