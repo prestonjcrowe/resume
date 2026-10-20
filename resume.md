@@ -1,6 +1,6 @@
 # Preston Crowe
 
-prestonjcrowe@protonmail.com · [prestoncrowe.com](https://prestoncrowe.com) · [github.com/prestonjcrowe](https://github.com/prestonjcrowe)
+prestonjcrowe@protonmail.com · [prestoncrowe.com](https://prestoncrowe.com) · [github.com/prestonjcrowe](https://github.com/prestonjcrowe) · (...) ... - ....
 
 Security Engineer with 5+ years experience building detectors, internal tools, and TI infrastructure.
 
